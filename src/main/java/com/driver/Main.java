@@ -4,8 +4,8 @@ public class Main {
   public static void main(String args[])
   {
     RWOnly rw=new RWOnly();
-    rw.setter("Elangovan");
-    String name=rw.getter();
+    rw.setName("Elangovan");
+    String name=rw.getName();
     // completed
   }
 }
