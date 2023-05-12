@@ -9,6 +9,6 @@ public class RWOnly {
     }
     public String getter()
     {
-        retrun name;
+        return name;
     }
 }
