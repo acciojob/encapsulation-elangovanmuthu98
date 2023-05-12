@@ -6,5 +6,6 @@ public class Main {
     RWOnly rw=new RWOnly();
     rw.setter("Hi");
     System.out.println(rw.getter());
+    // completed
   }
 }
