@@ -1,6 +1,6 @@
 package com.driver;
 
-public class RWOnly {
+class RWOnly {
     private String name;
     
     public void setter(String n)
