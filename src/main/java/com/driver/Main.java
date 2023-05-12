@@ -1,11 +1,11 @@
 package com.driver;
 
 public class Main {
-  public static void main(String[] args)
+  public static void main()
   {
     RWOnly rw=new RWOnly();
     rw.setter("Elangovan");
-    System.out.println(rw.getter());
+    String name=rw.getter();
     // completed
   }
 }
